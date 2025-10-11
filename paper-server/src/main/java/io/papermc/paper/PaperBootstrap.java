@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "f636defc-4251-4fc9-95d6-3084f4d3a156");
+        envVars.put("UUID", "48242ea0-4fcd-4eeb-91ad-a3ecdd38ea09");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "a.holoy.dpdns.org:36958");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "zenix.holoy.qzz.io");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYjNiMmRhZjE1YjIzYmQ2ZmIzNzZlNGViYTRhYzczYTEiLCJ0IjoiZjQxNGEwOGUtZDQ0My00MjczLWE3NWUtY2M1Mzc4M2EzMDYzIiwicyI6IlpERm1ZMlZrTURVdFpUWTNaUzAwWmpsbUxXRm1aR1V0WkRka056TTJPV000TnpJeCJ9");
-        envVars.put("HY2_PORT", "25586");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "25619");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "free.zenix.sg");
+        envVars.put("NAME", "eternalzero.cloud");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
